@@ -1,0 +1,67 @@
+body {
+  background-color: #1e202a;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.flag {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #292b38;
+}
+
+.bandera1 {
+  background-image: linear-gradient(
+    to top,
+    yellow 66px,
+    blue 66px 132px,
+    red 132px
+  );
+}
+
+.bandera2 {
+  background-image: linear-gradient(
+    to right,
+    black 33%,
+    yellow 33% 66%,
+    red 66%
+  );
+}
+
+.bandera3 {
+  background-image: linear-gradient(
+    rgb(23, 114, 211) 66px,
+    white 66px 76px,
+    black 76px 122px,
+    white 122px 132px,
+    rgb(23, 114, 211) 132px
+  );
+}
+
+.bandera4 {
+  background-image: linear-gradient(to right, green 35%, transparent 35%),
+    linear-gradient(yellow 50%, red 50%);
+}
+
+.bandera5 {
+  background-image: linear-gradient(135deg, green 40%, yellow 40% 60%, red 60%);
+}
+
+.bandera6 {
+  background-image: linear-gradient(112deg, blue 20%, transparent 20% 70%),
+    linear-gradient(135deg, yellow 40%, transparent 40% 70%),
+    linear-gradient(156deg, red 60%, transparent 60% 70%),
+    linear-gradient(167.5deg, white 75%, transparent 75% 90%),
+    linear-gradient(11deg, green 75%, transparent 75% 100%);
+}
